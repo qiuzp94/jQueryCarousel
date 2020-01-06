@@ -1,0 +1,28 @@
+.window{
+    border:10px solid #cccccc;
+    overflow: hidden;
+    width: 300px;
+    border-radius: 10px;
+}
+.images{
+    display: flex;
+    align-items: flex-start;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.buttons{
+    margin-top: 10px;
+    
+}
+.buttons > button{
+    margin: 0 5px;
+}
+
+.red{
+    color:red;
+}
