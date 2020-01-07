@@ -1,28 +1,26 @@
+.images{
+    display:flex;
+    align-items: flex-start;   
+}
+.container{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+
+}
 .window{
-    border:10px solid #cccccc;
+    transition:all 0.5s;
     overflow: hidden;
-    width: 300px;
+    width:300px;
+    border:10px solid #ccc;
     border-radius: 10px;
 }
-.images{
-    display: flex;
-    align-items: flex-start;
-}
-
-body{
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-}
-.buttons{
+#buttons{
     margin-top: 10px;
-    
 }
-.buttons > button{
+#buttons> button{
     margin: 0 5px;
 }
-
 .red{
     color:red;
 }
